@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic" // 这个设置会自动插入 React 导入
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
